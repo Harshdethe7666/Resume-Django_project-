@@ -1,0 +1,57 @@
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700*/
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+/*font*/
+.st-font {
+    font-family:'Satisfy',;
+}
+
+/* increase height of web page (to remove white part of page)*/
+html,
+body {
+    height:100%;
+}
+
+.container-fluid {
+    min-height:100%;
+}
+
+/*icon color in services*/
+.i-color {
+    color: chartreuse;
+}
+
+/*icon text color in services*/
+.ss-color {
+    color: aqua;
+}
+
+/*font texture for home page*/
+.h-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*side bar text color change*/
+
+/* nav-link function which we use in side bar for text color white */
+a.nav-link {
+    color: whitesmoke;
+}
+
+/* hover is use for when our cursor go through text */
+a.nav-link:hover {
+    color: black;
+    background-color: goldenrod;
+}
+
+a.nav-link.active {
+    color: black;
+    background-color: #ffc107;
+    font-weight: bold;
+}
